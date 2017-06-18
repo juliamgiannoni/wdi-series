@@ -14,10 +14,17 @@
  *= require_self
  */
 
-
-h1, div {
+h1,
+div {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
 
+.image-container {
+  border-image-source: url('https://s-media-cache-ak0.pinimg.com/originals/c5/96/b9/c596b946efdd295e2c8e1fc6facf9aec.png');
+  border-image-slice: 290;
+  height: 100%;
+  border-width: 120px;
+  border-style: solid;
+}

@@ -2,7 +2,7 @@
 
 <div class="gallery">
     <% @photos.each do |photo| %>
-      <div>
+      <div class="image-container">
         <%= (image_tag photo.image_url, {width: 400}) %>
       </div>
       <br>
