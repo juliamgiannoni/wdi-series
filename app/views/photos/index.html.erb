@@ -1,10 +1,14 @@
-<h1>WDI DT 44: A Series</h1>
+<div class="container">
+  <h1>WDI&nbsp;&nbsp;DT&nbsp;&nbsp;44: A Series</h1>
+  <br>
+  <br>
 
-<div class="gallery">
-    <% @photos.each do |photo| %>
-      <div class="image-container">
-        <%= (image_tag photo.image_url, {width: 400}) %>
-      </div>
-      <br>
-    <% end %>
+  <div class="gallery">
+      <% @photos.each do |photo| %>
+        <div class="image-container">
+          <%= (image_tag photo.image_url, {width: 325}) %>
+        </div>
+        <br>
+      <% end %>
+  </div>
 </div>

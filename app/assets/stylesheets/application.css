@@ -14,11 +14,16 @@
  *= require_self
  */
 
+* {
+  font-family: 'Allura', cursive;
+}
+
 h1,
 div {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  font-size: 60px;
 }
 
 .image-container {
