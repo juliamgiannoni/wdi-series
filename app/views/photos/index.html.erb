@@ -1,0 +1,9 @@
+<h1>WDI DT 44: A Series</h1>
+
+<div>
+    <% @photos.each do |photo| %>
+      <div>
+        <%= link_to (image_tag photo.image_url, {height: 300}) %>
+      </div>
+    <% end %>
+</div>
