@@ -58,3 +58,13 @@ div {
   background-color: transparent;
   border: solid 1px rgb(187,136,61);
 }
+
+@media only screen and (max-width: 767px) {
+  .image-container {
+    border-image-slice: 290;
+    height: 400px;
+    border-width: 120px;
+    border-style: solid;
+    margin-bottom: 80px;
+  }
+}
