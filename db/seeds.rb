@@ -56,8 +56,6 @@ photos = Photo.create([
   }, {
   image_url: "27.JPG"
   }, {
-  image_url: "28.JPG"
-  }, {
   image_url: "29.JPG"
   }, {
   image_url: "30.JPG"
